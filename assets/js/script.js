@@ -40,7 +40,7 @@ $(document).ready(function() {
         // get timeblock hour and current hour
         let timeBlockId = timeBlock.getAttribute('id');
         let timeBlockHour = getTimeBlockHourById(timeBlockId);
-        var currentHour = moment().hour() - 10;
+        var currentHour = moment().hour();
 
         // Clear status before assigning new one
         clearTimeBlockStatus(timeBlock);
